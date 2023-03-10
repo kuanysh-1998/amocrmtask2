@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/amocrmtask2/static/css/main.da2d3ad5.css",
+    "main.js": "/amocrmtask2/static/js/main.a986242c.js",
+    "static/media/bg.png": "/amocrmtask2/static/media/bg.4a08d85ad23542eeb612.png",
+    "index.html": "/amocrmtask2/index.html",
+    "main.da2d3ad5.css.map": "/amocrmtask2/static/css/main.da2d3ad5.css.map",
+    "main.a986242c.js.map": "/amocrmtask2/static/js/main.a986242c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da2d3ad5.css",
+    "static/js/main.a986242c.js"
+  ]
+}
