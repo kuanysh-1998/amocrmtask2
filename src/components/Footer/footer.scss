@@ -1,0 +1,121 @@
+.footer {
+  margin-bottom: 88px;
+  &__address {
+    display: none;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+  }
+  &__left {
+    display: flex;
+    & a {
+      font-weight: 400;
+      font-size: 16px;
+      color: #e4e5ea;
+      margin-bottom: 10px;
+    }
+  }
+  &__nav {
+    display: flex;
+    & div {
+      display: flex;
+      flex-direction: column;
+    }
+    & div:last-child {
+      margin-left: 52px;
+      margin-top: 37px;
+    }
+  }
+  &__company {
+    display: flex;
+    flex-direction: column;
+  }
+  &__company:first-child {
+    margin-right: 98px;
+  }
+  &__nav {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+    margin-bottom: 20px;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    & a {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #e4e5ea;
+    }
+  }
+  &__links {
+    display: flex;
+    justify-content: right;
+    column-gap: 13.65px;
+    margin-top: 22px;
+  }
+  &__copyright {
+    text-align: right;
+    & p {
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 12px;
+      color: #e4e5ea;
+    }
+    & span {
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 12px;
+      text-decoration-line: underline;
+      color: #e4e5ea;
+      margin-top: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    width: 100%;
+    margin-left: 16px;
+    &__content {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 33px;
+    }
+    &__left {
+      flex-direction: column;
+      & a {
+        font-size: 14px;
+      }
+    }
+    &__company {
+      margin-bottom: 30px;
+    }
+    &__right {
+      text-align: left;
+    }
+    &__links {
+      justify-content: left;
+      column-gap: 13.98px;
+      margin-top: 11px;
+    }
+    &__address {
+      display: initial;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #e4e5ea;
+      margin-top: 12px;
+    }
+    &__copyright {
+      text-align: left;
+      margin-top: 50px;
+    }
+  }
+}

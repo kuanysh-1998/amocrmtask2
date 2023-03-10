@@ -1,0 +1,137 @@
+.footer {
+  margin-bottom: 88px;
+}
+
+.footer__address {
+  display: none;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 33px;
+}
+
+.footer__left {
+  display: flex;
+}
+
+.footer__left a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #e4e5ea;
+  margin-bottom: 10px;
+}
+
+.footer__nav {
+  display: flex;
+}
+
+.footer__nav div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__nav div:last-child {
+  margin-left: 52px;
+  margin-top: 37px;
+}
+
+.footer__company {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__company:first-child {
+  margin-right: 98px;
+}
+
+.footer__nav {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #656566;
+  margin-bottom: 20px;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.footer__right a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e4e5ea;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: right;
+  column-gap: 13.65px;
+  margin-top: 22px;
+}
+
+.footer__copyright {
+  text-align: right;
+}
+
+.footer__copyright p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 12px;
+  color: #e4e5ea;
+}
+
+.footer__copyright span {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration-line: underline;
+  color: #e4e5ea;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    width: 100%;
+    margin-left: 16px;
+  }
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 33px;
+  }
+  .footer__left {
+    flex-direction: column;
+  }
+  .footer__left a {
+    font-size: 14px;
+  }
+  .footer__company {
+    margin-bottom: 30px;
+  }
+  .footer__right {
+    text-align: left;
+  }
+  .footer__links {
+    justify-content: left;
+    column-gap: 13.98px;
+    margin-top: 11px;
+  }
+  .footer__address {
+    display: initial;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #e4e5ea;
+    margin-top: 12px;
+  }
+  .footer__copyright {
+    text-align: left;
+    margin-top: 50px;
+  }
+}

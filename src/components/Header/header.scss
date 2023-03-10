@@ -1,13 +1,15 @@
 .header {
-    position: relative;
+  position: relative;
   &__circle {
     position: absolute;
     left: 363px;
     top: 15px;
   }
+
   &__content {
     display: flex;
-    column-gap: 90px;
+    column-gap: 125px;
+    z-index: 2;
   }
   &__left {
     display: flex;
@@ -39,7 +41,7 @@
       color: #e4e5ea;
     }
     &-phone {
-      margin-right: 48px;
+      margin-right: 48.67px;
       font-weight: 500;
       font-size: 16px;
     }
@@ -58,5 +60,46 @@
     line-height: 12px;
     color: #e4e5ea;
     margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    max-width: 600px;
+    width: 100%;
+    background: #1e1e1e;
+    padding: 20px 16px;
+    margin-bottom: 0;
+    &__content {
+      display: flex;
+      justify-content: center;
+      max-width: 600px;
+      width: 100%;
+    }
+    &__circle{
+      display: none;
+    }
+    &__logo {
+      display: none;
+    }
+    &__right {
+      display: none;
+    }
+    &__title {
+      display: none;
+    }
+    &__menu {
+      display: flex;
+      column-gap: 16px;
+      & a:last-child {
+        display: none;
+      }
+      & a {
+        font-size: 12px;
+      }
+      & a:first-child {
+        margin-left: 0;
+      }
+    }
   }
 }
